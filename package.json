@@ -1,0 +1,73 @@
+{
+ 
+  "name": "fetchapi-module",
+ 
+  "description": "Fecth API adapter module, support CommonJS",
+ 
+  "version": "1.0.0",
+ 
+  "license": "MIT",
+ 
+  "main": "./index.js",
+ 
+  "keywords": [
+ 
+   
+  "fetch",
+ 
+   
+  "adapter",
+ 
+   
+  "commonjs"
+ 
+  ],
+ 
+  "author": {
+ 
+   
+  "name": "guyoung"
+ 
+  },
+ 
+  "homepage": "https://github.com/guyoung/fetchapi-module",
+ 
+  "repository": {
+ 
+   
+  "type": "git",
+ 
+   
+  "url": "git://github.com/guyoung/fetchapi-module"
+ 
+  },
+ 
+  "files": [
+ 
+   
+  "README.md",
+ 
+   
+  "examples",
+ 
+   
+  "LICENSE",
+ 
+   
+  "index.js",
+ 
+   
+  "package.json"
+ 
+  ],
+ 
+  "dependencies": {
+ 
+   
+  "node-fetch": "^2.7.0",
+ 
+   
+  "whatwg-fetch": "^3.6.20"
+ 
+  }
+}
