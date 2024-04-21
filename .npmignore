@@ -1,8 +1,7 @@
-node_modules
-npm-debug.log
-travis.log
-.vscode
-.github
-
-examples/node/package.json
-examples/node/package-lock.json
+**/*
+!/dist/**
+!index.js
+!LICENSE
+!README.md
+!examples/node/index.js
+!examples/web/index.html

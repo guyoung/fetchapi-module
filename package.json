@@ -1,7 +1,7 @@
 {
   "name": "fetchapi-module",
   "description": "Fecth API adapter module, support CommonJS",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "license": "MIT",
   "main": "./index.js",
   "browser": "dist/fetchapi-module.umd.js",
