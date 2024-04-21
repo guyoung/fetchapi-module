@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+</head>
+
+<body>
+    <script src="https://unpkg.com/fetchapi-module/dist/fetchapi-module.umd.js"></script>
+
+    <script>
+        fetch('https://reqres.in/api/users')
+            .then(res => res.text())
+            .then(body => console.log(body))
+
+
+        fetch('https://reqres.in/api/users')
+            .then(res => res.json())
+            .then(body => console.log(body))
+
+    </script>
+
+</body>
+
+</html>

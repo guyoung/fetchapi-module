@@ -1,4 +1,4 @@
-var fetch = require("../../index.js")
+var fetch = require("fetchapi-module")
 
 fetch('https://reqres.in/api/users')
     .then(res => res.text())
